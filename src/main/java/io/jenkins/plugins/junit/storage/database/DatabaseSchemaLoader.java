@@ -36,6 +36,8 @@ public class DatabaseSchemaLoader {
                 String schemaLocation = "postgres";
                 if (databaseDriverName.contains("mysql")) {
                     schemaLocation = "mysql";
+                } else if (databaseDriverName.contains("sqlite")) {
+                    schemaLocation = "sqlite";
                 }
                 Flyway flyway = Flyway
                         .configure(DatabaseSchemaLoader.class.getClassLoader())
