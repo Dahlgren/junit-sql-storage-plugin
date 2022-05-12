@@ -56,6 +56,11 @@
             <version>8.5.10</version>
         </dependency>
         <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-mysql</artifactId>
+            <version>8.5.10</version>
+        </dependency>
+        <dependency>
             <groupId>org.jenkins-ci.plugins</groupId>
             <artifactId>database-postgresql</artifactId>
             <version>1.2</version>
